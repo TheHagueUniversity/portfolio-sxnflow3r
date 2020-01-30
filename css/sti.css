@@ -33,40 +33,42 @@ img {
 a {
   color: #F64C72;
 }
-a:hover {
-  text-decoration:none;
-}
 /* Changes the header 1 to pink colour*/
 h1 {
   font-size: 80px;
-  line-height: 0.25;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: #F64C72;
-
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
+  color: #F64C72;
+    letter-spacing: 4px
 }
-
+h3 {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 0.5;
+}
 .content-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 100%;
   width: 100%;
   margin: 50px;
   padding: 30px 0;
 }
-
-h3 {
-  margin-bottom: 0;
-  color: pink;
+.imagegrid{
+  margin-left: 100px;
 }
+
+
 
 .navbar{
 	background-color: blue;
+  color:black;
 }
 
 nav{
@@ -84,7 +86,7 @@ nav li{
 	padding:20px;
 }
 nav a{
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -101,7 +103,7 @@ nav a{
   padding:100px;
     max-width: 1400px;
   width: 100%;
-  margin: 10px;
+  margin: 0 auto;
   padding: 30px 0; 
   text-align: center;
 }
@@ -113,21 +115,42 @@ nav a{
   width: 50%;
 }
 .img1{
-  width: 120%;
-  height:100%;
-  margin: 0 auto;
-  padding: 0 auto;
+  width: 600px;
+  height:400px;
 }
 
-.textgrid{
-
+.tiledbackground
+{
+  background-image: url("https://images.unsplash.com/photo-1541450805268-4822a3a774ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  max-height: 100%
+  max-width:100%;
+  height: 500px;
 }
+.aboutmetext{
+  margin-right: 100px;
+}
+.grid-wrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*Portfolio Slide*/
+
+.portfolio{
+    text-align: center; ;
+    width:100%;
+}
+.portfolio-wrap img{
+  margin: 1%;
+  width:45%;
+}
+
+
 
 
 /* Profile
 ------------------------------------*/
 header {
-  background: #001c3d;
   color: #F7FFF7;
 }
 
