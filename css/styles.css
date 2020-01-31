@@ -1,0 +1,180 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#242582 - dark purple blue 
+#553D67 - maroon purple
+#F64C72 - hot pink
+#99738E - light brown purple
+#2F2FA2 - lighter to first purple blue
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color:#231715;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #F64C72;
+}
+/* Changes the header 1 to pink colour*/
+h1 {
+  font-size: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: #F64C72;
+}
+h2 {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #F64C72;
+    letter-spacing: 4px
+}
+h3 {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 0.5;
+}
+h4{
+  line-height: 0.5;
+}
+.content-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  width: 100%;
+  margin: auto 0;
+  padding: auto 0;
+}
+.img1{
+  width: 600px;
+  height:400px;
+}
+
+.tiledbackground
+{
+  background-image: url("https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
+  background-color: #F0A093;
+  width:1450px;
+  height: 800px;
+  max-height:100%
+  max-width:100%;
+
+}
+.imagegrid{
+  margin-left: auto 0;
+}
+
+.navbar{
+	background-color: blue;
+  color:black;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-right:50px;
+	padding:20px;
+}
+nav a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.about{
+  background-color: white;
+  padding: 20px;
+}
+.grid-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  border-style: dashed;
+  padding:100px;
+    max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0; 
+  text-align: center;
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.left{
+  display: block;
+  margin-left:auto;
+  margin-right:30%;
+  width:75%;
+}
+
+/*ABOUT ME */
+.aboutmetext{
+  margin-right: 100px;
+}
+.grid-wrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skillset{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/*Portfolio Slide*/
+.portfolio{
+    text-align: center; ;
+    width:100%;
+}
+.portfolio-wrap img{
+  margin: 1%;
+  width:45%;
+}
+
+/*Bespoke*/
+.textgrid2{
+  margin-left: 30%;
+}
+.imagegrid2{
+ margin-top: 60px; 
+}
+
+/* Profile
+------------------------------------*/
+header {
+  color: #F7FFF7;
+}
+
+
+
+
+
+
